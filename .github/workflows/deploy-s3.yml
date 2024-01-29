@@ -21,4 +21,4 @@ jobs:
         run: | 
           ls -la 
           
-          arn:aws:s3:::rach-s3-demo
+          aws s3 cp . s3://rach-s3-demo/ --recursive
